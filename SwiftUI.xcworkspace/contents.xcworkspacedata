@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Apple-SwiftUI-Tutorials">
+      <FileRef
+         location = "group:/Users/Joker/Desktop/SwiftUI/Projects/01.CreatingAndCombiningViews/01.Creating-And-Combining-Views.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Projects/02.Building-Lists-and-Navigation/02.Building-Lists-and-Navigation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Projects/03.Handling-User-Input/03.Handling-User-Input.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
