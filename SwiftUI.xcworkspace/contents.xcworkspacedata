@@ -13,5 +13,8 @@
       <FileRef
          location = "group:Projects/03.Handling-User-Input/03.Handling-User-Input.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/04.Drawing-Paths-and-Shapes/04.Drawing-Paths-and-Shapes.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
