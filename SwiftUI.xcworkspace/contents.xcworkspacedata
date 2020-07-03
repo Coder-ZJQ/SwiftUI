@@ -22,5 +22,8 @@
       <FileRef
          location = "group:Projects/06.Composing-Complex-Interfaces/06.Composing-Complex-Interfaces.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/07.Working-With-UIControls/07.Working-With-UIControls.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
