@@ -19,5 +19,8 @@
       <FileRef
          location = "group:Projects/05.Animating-Views-and-Transitions/05.Animating-Views-and-Transitions.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/06.Composing-Complex-Interfaces/06.Composing-Complex-Interfaces.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
