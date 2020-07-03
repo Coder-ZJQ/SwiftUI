@@ -28,5 +28,8 @@
       <FileRef
          location = "group:Projects/08.Interfacing-With-UIKit/08.Interfacing-With-UIKit.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/09.Creating-A-watchOS-App/09.Creating-A-watchOS-App.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>07.Working-With-UIControls.xcscheme_^#shared#^_</key>
+		<key>09.Creating-A-watchOS-App(watchOS) (Notification).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>10</integer>
+		</dict>
+		<key>09.Creating-A-watchOS-App(watchOS).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>09.Creating-A-watchOS-App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Landmarks.xcscheme_^#shared#^_</key>
 		<dict>
