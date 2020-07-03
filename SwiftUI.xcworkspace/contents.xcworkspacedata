@@ -25,5 +25,8 @@
       <FileRef
          location = "group:Projects/07.Working-With-UIControls/07.Working-With-UIControls.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/08.Interfacing-With-UIKit/08.Interfacing-With-UIKit.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
