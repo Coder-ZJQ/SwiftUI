@@ -31,5 +31,8 @@
       <FileRef
          location = "group:Projects/09.Creating-A-watchOS-App/09.Creating-A-watchOS-App.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Projects/10.Creating-A-macOS-App/10.Creating-A-macOS-App.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
