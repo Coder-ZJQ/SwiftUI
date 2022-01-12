@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
    <Group
       location = "container:"
       name = "Apple-SwiftUI-Tutorials">
@@ -34,5 +37,20 @@
       <FileRef
          location = "group:Apple-SwiftUI-Tutorials/10.Creating-A-macOS-App/10.Creating-A-macOS-App.xcodeproj">
       </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Raywenderlich-SwiftUI-by-Tutorials">
+      <Group
+         location = "container:"
+         name = "01-introduction">
+      </Group>
+      <Group
+         location = "container:"
+         name = "02-getting-started">
+         <FileRef
+            location = "group:Raywenderlich-SwiftUI-by-Tutorials/02-getting-started/RGBullsEye.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>
