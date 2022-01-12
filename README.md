@@ -6,6 +6,21 @@
 
 ## Videos
 
+### WWDC 2021
+
+- [What's new in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10018/)
+- [Discover concurrency in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10019/)
+- [Demystify SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10022/)
+- [Direct and reflect focus in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10023/)
+- [SwiftUI on the Mac: The finishing touches](https://developer.apple.com/videos/play/wwdc2021/10289/)
+- [SwiftUI on the Mac: Build the fundamentals](https://developer.apple.com/videos/play/wwdc2021/10062/)
+- [Localize your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10220/)
+- [Direct and reflect focus in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10023/)
+- [SwiftUI Accessibility: Beyond the basics](https://developer.apple.com/videos/play/wwdc2021/10119/)
+- [Discover concurrency in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10019/)
+- [Add rich graphics to your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10021/)
+- [SF Symbols in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10349/)
+
 ### WWDC 2020
 
 - [Build SwiftUI apps for tvOS](https://developer.apple.com/videos/play/wwdc2020/10042/)
@@ -34,4 +49,5 @@
 
 ## Books
 
+- [SwiftUI Apprentice](https://www.raywenderlich.com/books/swiftui-apprentice/)
 - [SwiftUI by Tutorials](https://store.raywenderlich.com/products/swiftui-by-tutorials)
