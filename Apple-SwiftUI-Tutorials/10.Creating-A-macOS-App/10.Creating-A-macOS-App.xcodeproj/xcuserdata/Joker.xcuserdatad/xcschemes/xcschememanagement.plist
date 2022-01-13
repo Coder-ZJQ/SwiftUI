@@ -7,12 +7,12 @@
 		<key>10.Creating-A-macOS-App(macOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>10.Creating-A-macOS-App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Landmarks.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B7394861229F194000C47603</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F3D9414F24B2C1F00083CEE1</key>
 		<dict>
 			<key>primary</key>
