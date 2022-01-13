@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1320"
+   LastUpgradeVersion = "1220"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-               BuildableName = "RGBullsEye(getting-started).app"
-               BlueprintName = "RGBullsEye(getting-started)"
-               ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+               BuildableName = "RGBullsEye.app"
+               BlueprintName = "RGBullsEye"
+               ReferencedContainer = "container:RGBullsEye.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BuildableName = "RGBullsEye.app"
+            BlueprintName = "RGBullsEye"
+            ReferencedContainer = "container:RGBullsEye.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BuildableName = "RGBullsEye.app"
+            BlueprintName = "RGBullsEye"
+            ReferencedContainer = "container:RGBullsEye.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

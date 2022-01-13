@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-               BuildableName = "RGBullsEye(getting-started).app"
-               BlueprintName = "RGBullsEye(getting-started)"
-               ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+               BuildableName = "RGBullsEye(diving-deeper-into-swiftui).app"
+               BlueprintName = "RGBullsEye(diving-deeper-into-swiftui)"
+               ReferencedContainer = "container:RGBullsEye(diving-deeper-into-swiftui).xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BuildableName = "RGBullsEye(diving-deeper-into-swiftui).app"
+            BlueprintName = "RGBullsEye(diving-deeper-into-swiftui)"
+            ReferencedContainer = "container:RGBullsEye(diving-deeper-into-swiftui).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BuildableName = "RGBullsEye(diving-deeper-into-swiftui).app"
+            BlueprintName = "RGBullsEye(diving-deeper-into-swiftui)"
+            ReferencedContainer = "container:RGBullsEye(diving-deeper-into-swiftui).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

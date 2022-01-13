@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-               BuildableName = "RGBullsEye(getting-started).app"
-               BlueprintName = "RGBullsEye(getting-started)"
-               ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+               BlueprintIdentifier = "B7394861229F194000C47603"
+               BuildableName = "05.Animating-Views-and-Transitions.app"
+               BlueprintName = "05.Animating-Views-and-Transitions"
+               ReferencedContainer = "container:05.Animating-Views-and-Transitions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BlueprintIdentifier = "B7394861229F194000C47603"
+            BuildableName = "05.Animating-Views-and-Transitions.app"
+            BlueprintName = "05.Animating-Views-and-Transitions"
+            ReferencedContainer = "container:05.Animating-Views-and-Transitions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD405EF62536AA700062B1CC"
-            BuildableName = "RGBullsEye(getting-started).app"
-            BlueprintName = "RGBullsEye(getting-started)"
-            ReferencedContainer = "container:RGBullsEye(getting-started).xcodeproj">
+            BlueprintIdentifier = "B7394861229F194000C47603"
+            BuildableName = "05.Animating-Views-and-Transitions.app"
+            BlueprintName = "05.Animating-Views-and-Transitions"
+            ReferencedContainer = "container:05.Animating-Views-and-Transitions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
