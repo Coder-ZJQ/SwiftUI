@@ -59,5 +59,12 @@
             location = "group:/Users/Joker/Desktop/.Desktop/Projects/Github/SwiftUI/Raywenderlich-SwiftUI-by-Tutorials/03-diving-deeper-into-swiftui/RGBullsEye(diving-deeper-into-swiftui).xcodeproj">
          </FileRef>
       </Group>
+      <Group
+         location = "container:"
+         name = "04-testing-and-debugging">
+         <FileRef
+            location = "group:Raywenderlich-SwiftUI-by-Tutorials/04-testing-and-debugging/SwiftCalc.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>
