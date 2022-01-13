@@ -7,12 +7,12 @@
 		<key>09.Creating-A-watchOS-App(watchOS) (Notification).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>10</integer>
 		</dict>
 		<key>09.Creating-A-watchOS-App(watchOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>9</integer>
 		</dict>
 		<key>09.Creating-A-watchOS-App.xcscheme_^#shared#^_</key>
 		<dict>
@@ -23,6 +23,19 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B7394861229F194000C47603</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F3945A6A24AF35EF00976155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

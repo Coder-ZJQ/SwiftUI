@@ -49,7 +49,14 @@
          location = "container:"
          name = "02-getting-started">
          <FileRef
-            location = "group:Raywenderlich-SwiftUI-by-Tutorials/02-getting-started/RGBullsEye.xcodeproj">
+            location = "group:/Users/Joker/Desktop/.Desktop/Projects/Github/SwiftUI/Raywenderlich-SwiftUI-by-Tutorials/02-getting-started/RGBullsEye(getting-started).xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "03-diving-deeper-into-swiftui">
+         <FileRef
+            location = "group:/Users/Joker/Desktop/.Desktop/Projects/Github/SwiftUI/Raywenderlich-SwiftUI-by-Tutorials/03-diving-deeper-into-swiftui/RGBullsEye(diving-deeper-into-swiftui).xcodeproj">
          </FileRef>
       </Group>
    </Group>

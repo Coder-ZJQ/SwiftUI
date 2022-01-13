@@ -20,7 +20,7 @@
 		CD25DEBE253C26A200A218D4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CD25DEC2253C279400A218D4 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		CD25DEC5253C299400A218D4 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		CD405EF72536AA700062B1CC /* RGBullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD405EF72536AA700062B1CC /* RGBullsEye(getting-started).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGBullsEye(getting-started).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD405EFA2536AA700062B1CC /* RGBullsEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBullsEyeApp.swift; sourceTree = "<group>"; };
 		CD405EFC2536AA700062B1CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD405EFE2536AA720062B1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		CD405EF82536AA700062B1CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD405EF72536AA700062B1CC /* RGBullsEye.app */,
+				CD405EF72536AA700062B1CC /* RGBullsEye(getting-started).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD405EF62536AA700062B1CC /* RGBullsEye */ = {
+		CD405EF62536AA700062B1CC /* RGBullsEye(getting-started) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD405F062536AA720062B1CC /* Build configuration list for PBXNativeTarget "RGBullsEye" */;
+			buildConfigurationList = CD405F062536AA720062B1CC /* Build configuration list for PBXNativeTarget "RGBullsEye(getting-started)" */;
 			buildPhases = (
 				CD405EF32536AA700062B1CC /* Sources */,
 				CD405EF42536AA700062B1CC /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = RGBullsEye;
+			name = "RGBullsEye(getting-started)";
 			productName = RGBullsEye;
-			productReference = CD405EF72536AA700062B1CC /* RGBullsEye.app */;
+			productReference = CD405EF72536AA700062B1CC /* RGBullsEye(getting-started).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD405EF22536AA700062B1CC /* Build configuration list for PBXProject "RGBullsEye" */;
+			buildConfigurationList = CD405EF22536AA700062B1CC /* Build configuration list for PBXProject "RGBullsEye(getting-started)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD405EF62536AA700062B1CC /* RGBullsEye */,
+				CD405EF62536AA700062B1CC /* RGBullsEye(getting-started) */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD405EF22536AA700062B1CC /* Build configuration list for PBXProject "RGBullsEye" */ = {
+		CD405EF22536AA700062B1CC /* Build configuration list for PBXProject "RGBullsEye(getting-started)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD405F042536AA720062B1CC /* Debug */,
@@ -358,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD405F062536AA720062B1CC /* Build configuration list for PBXNativeTarget "RGBullsEye" */ = {
+		CD405F062536AA720062B1CC /* Build configuration list for PBXNativeTarget "RGBullsEye(getting-started)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD405F072536AA720062B1CC /* Debug */,
