@@ -1,24 +1,89 @@
-### [03-diving-deeper-into-swiftui](https://github.com/Coder-ZJQ/SwiftUI/commits/master/Raywenderlich-SwiftUI-by-Tutorials/03-diving-deeper-into-swiftui)
+### [04-testing-and-debugging](https://github.com/Coder-ZJQ/SwiftUI/commits/master/Raywenderlich-SwiftUI-by-Tutorials/04-testing-and-debugging)
 
-|  Project  |                             Diff                             |
-| :-------: | :----------------------------------------------------------: |
-|   start   |                              \                               |
-|  finish   | [d62cb4](https://github.com/Coder-ZJQ/SwiftUI/commit/d62cb43b0830dfece5c1b126e26fbe50f5f9c7e8) |
-| challenge |                              \                               |
-
-
-
-- **Library**: **primitive views** & **modifiers**
-- **Neumorphism**: [新拟态](https://zhuanlan.zhihu.com/p/106071699)
-- [ButtonStyle](https://developer.apple.com/documentation/swiftui/buttonstyle/): 设置按钮样式（会使系统原本样式失效）
-- [Capsule](https://developer.apple.com/documentation/swiftui/Capsule/): 胶囊形状
-- [Group](https://developer.apple.com/documentation/swiftui/Group/): 将 View, Sence 等组成一组，利用 modifier 修饰 Group 会影响其中的所有成员
-- inset: 设置缩进
-- [previewLayout](https://developer.apple.com/documentation/swiftui/previewlayout/): 设置预览尺寸
-- [previewDevice](https://developer.apple.com/documentation/swiftui/previewdevice/): 设置模拟器预览设备
-- [preferredColorScheme](https://developer.apple.com/documentation/swiftui/anyview/preferredcolorscheme(_:)/): 设置颜色主题（暗黑模式）
-- font: 设置字体（会影响子 View）
-- GeometryReader: 适配屏幕尺寸
-  - GeometryProxy
+|  Project  | Diff |
+| :-------: | :--: |
+|   start   |  \   |
+|  finish   |  \   |
+| challenge |  \   |
 
 
+
+- 单元测试，集成测试，UI 测试
+
+- 打开调试页面：**Command - Shift - Y**
+
+- 获取应用并启动：
+
+  ``` swift
+  let app = XCUIApplication()
+  app.launch()
+  ```
+
+- 获取按钮并模拟点击：
+
+  ``` swift
+  // 参数为按钮显示或者 accessibility identifier
+  let button = app.buttons["btn"]
+  button.tap()
+  ```
+
+- `.accessibility(identifier: )`: 设置访问标识，测试使用
+
+- 获取控件显示：
+
+  ``` swift
+  // 通过访问标识(accessibility identifier) 获取
+  let display = app.staticTexts["display"]
+  let displayText = display.label
+  ```
+
+- 断言判断测试结果：
+
+  ``` swift
+  XCTAssert(displayText == "0")
+  ```
+
+- `.exist` 判断控件是否存在
+
+- 模拟用户交互：
+
+  ``` swift
+  func testSwipeToClearMemory() {
+    let app = XCUIApplication()
+    app.launch()
+  
+    let threeButton = app.buttons["3"]
+    threeButton.tap()
+    let fiveButton = app.buttons["5"]
+    fiveButton.tap()
+  
+    let memoryButton = app.buttons["M+"]
+    memoryButton.tap()
+  
+    let memoryDisplay = app.staticTexts["memoryDisplay"]
+    XCTAssert(memoryDisplay.exists)
+    memoryDisplay.swipeLeft()
+    XCTAssertFalse(memoryDisplay.exists)
+  }
+  ```
+
+- 其他属性或方法：[XCUIElement](https://developer.apple.com/documentation/xctest/xcuielement?language=objc)
+
+- 多平台测试：
+
+  ``` swift
+  #if !targetEnvironment(macCatalyst)
+  // Test to exclude
+  #endif
+  
+  #if !os(watchOS)
+  // Your XCTest code
+  #endif
+  ```
+
+- 调试 View 及 state 变化：
+
+  ``` swift
+  // 打印使视图重绘的属性
+  let _ = Self._printChanges()
+  ```

@@ -28,14 +28,29 @@
 
 import SwiftUI
 
+extension Color {
+  // Return a random color
+  static var random: Color {
+    return Color(
+      red: .random(in: 0...1),
+      green: .random(in: 0...1),
+      blue: .random(in: 0...1)
+    )
+  }
+}
+
 struct DisplayView: View {
   @Binding var display: String
 
   var body: some View {
+    if #available(iOS 15.0, *) {
+      let _ = Self._printChanges()
+    }
+
     HStack {
       if display.isEmpty {
         Text("0")
-          // Add display identifier
+          .accessibility(identifier: "display")
           .padding(.horizontal, 5)
           .frame(
             maxWidth: .infinity,
@@ -49,7 +64,7 @@ struct DisplayView: View {
           )
       } else {
         Text(display)
-          // Add display identifier
+          .accessibility(identifier: "display")
           .padding(.horizontal, 5)
           .frame(
             maxWidth: .infinity,
@@ -62,6 +77,7 @@ struct DisplayView: View {
           )
       }
     }
+    .background(Color.random)
   }
 }
 
