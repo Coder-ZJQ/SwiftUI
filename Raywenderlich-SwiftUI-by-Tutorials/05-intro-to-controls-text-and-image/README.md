@@ -1,10 +1,10 @@
 ### [05-intro-to-controls-text-and-image](https://github.com/Coder-ZJQ/SwiftUI/commits/master/Raywenderlich-SwiftUI-by-Tutorials/05-intro-to-controls-text-and-image)
 
-|  Project  | Diff |
-| :-------: | :--: |
-|   start   |  \   |
-|  finish   |      |
-| challenge |      |
+|  Project  |                             Diff                             |
+| :-------: | :----------------------------------------------------------: |
+|   start   |                              \                               |
+|  finish   | [6b9069](https://github.com/Coder-ZJQ/SwiftUI/commit/6b9069ef926ea4e05066800e7201a7ce570c461b) |
+| challenge |                              \                               |
 
 
 
