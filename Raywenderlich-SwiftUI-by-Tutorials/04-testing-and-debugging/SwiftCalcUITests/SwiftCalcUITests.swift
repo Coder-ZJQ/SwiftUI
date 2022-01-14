@@ -91,7 +91,13 @@ class SwiftCalcUITests: XCTestCase {
 
     let memoryDisplay = app.staticTexts["memoryDisplay"]
     XCTAssert(memoryDisplay.exists)
+      
+    #if targetEnvironment(macCatalyst)
+    memoryDisplay.doubleTap()
+    #else
     memoryDisplay.swipeLeft()
+    #endif
+    
     XCTAssertFalse(memoryDisplay.exists)
   }
 

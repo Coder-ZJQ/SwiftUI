@@ -1,10 +1,10 @@
 ### [04-testing-and-debugging](https://github.com/Coder-ZJQ/SwiftUI/commits/master/Raywenderlich-SwiftUI-by-Tutorials/04-testing-and-debugging)
 
-|  Project  | Diff |
-| :-------: | :--: |
-|   start   |  \   |
-|  finish   |  \   |
-| challenge |  \   |
+|  Project  |                             Diff                             |
+| :-------: | :----------------------------------------------------------: |
+|   start   |                              \                               |
+|  finish   | [f8ecf1](https://github.com/Coder-ZJQ/SwiftUI/commit/f8ecf1fc79ec927c6f52eeee5d65660dd213c0cc) |
+| challenge |                                                              |
 
 
 

@@ -33,10 +33,17 @@ struct MemoryView: View {
   var geometry: GeometryProxy
 
   var body: some View {
+    #if targetEnvironment(macCatalyst)
+    let doubleTap = TapGesture(count: 2)
+      .onEnded { _ in
+        self.memory = 0.0
+      }
+    #else
     let memorySwipe = DragGesture(minimumDistance: 20)
       .onEnded { _ in
-        memory = 0.0
+        self.memory = 0.0
       }
+    #endif
 
     HStack {
       Spacer()
@@ -52,8 +59,12 @@ struct MemoryView: View {
             .stroke(lineWidth: 2)
             .foregroundColor(Color.gray)
         )
-        // Add gesture here
+      // Add gesture here
+      #if targetEnvironment(macCatalyst)
+        .gesture(doubleTap)
+      #else
         .gesture(memorySwipe)
+      #endif
       Text("M")
     }.padding(.bottom).padding(.horizontal, 5)
   }
